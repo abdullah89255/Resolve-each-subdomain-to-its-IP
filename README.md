@@ -79,3 +79,36 @@ sort -u ips.txt > unique_ips.txt
 ```
 
 ---
+# ✅ **How to Use**
+
+### 1. Make it executable:
+
+```bash
+chmod +x resolve_ips.sh
+```
+
+### 2. Run it:
+
+```bash
+./resolve_ips.sh all_subdomains.txt
+```
+
+---
+
+# 📁 Output Files
+
+### **clean_domains.txt**
+
+All domains cleaned (no http, no paths).
+
+### **resolved_ips.txt**
+
+All resolved IPs (unique):
+
+```
+104.21.45.88
+172.67.199.12
+203.0.113.55
+```
+
+---
